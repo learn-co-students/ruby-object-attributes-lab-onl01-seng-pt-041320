@@ -1,16 +1,17 @@
 class Dog
 
-  def name= (fido_name)
-    @name = fido_name
-  end
-  def name= (fido_name)
-    @name = "Fido"
-  end
-  def breed= breed
-    @breed = breed
-  end
+ def name=(dogs_name)
+    @name = dogs_name
+ end
 
-  def breed= breed
+ def name
+   @name
+ end
+ def breed= breed
     @breed = breed
+ end
+
+  def breed
+    @breed
   end
 end
